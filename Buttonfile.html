@@ -7,19 +7,23 @@
 <img src="https://pyxis.nymag.com/v1/imgs/0b8/596/731a1ed688b6b2bc3be27147e9c08dde6a-10-joe-biden-ice-cream.rvertical.w330.jpg"
  <p>This is the header for an empty form and submit button.
         <input type="text" placeholder="This is placeholder text">
-    </p>
-        <button type="submit">This button submits the form.</button>
+    <button type="submit">This button submits the form.</button>
+ </p>
+ <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <button type="submit">Submit</button>
     </p>
     <p>This is a survey of radio buttons. Pick your favorite. More text
         <button type="radio">Radio Button One</button>
         <button type="radio">Radio Button Two</button>
         </p>
     <p>This is a list of checkbox buttons. Pick your favorites.
-        <input type="checkbox">Option 1</button>
-        <input type="checkbox">Option 2</button>
-        <input type="checkbox">Option 3</button>
-        
+        <label for="Option-1"><input id="Option-1" type="radio" name="Options">Option 1</label>
+        <label for="Option-2"><input id="Option-2" type="radio" name="Options">Option 2</label>
+        <label for="Option-3"><input id="Option-3" type="radio" name="Options">Option 3</label>
         </p>
+    <label for="mint"><input id="mint" type="checkbox" name="ice-cream">Mint</label>
+    <label for="chocolate"><input id="chocolate" type="checkbox" name="ice-cream">Chocolate</label>
         
 </p>
 </body>
